@@ -14,6 +14,7 @@
     <ProjectGuid>{4DCCCB97-1059-483C-A153-C491F0ECE607}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>UnitTest2</RootNamespace>
+    <ProjectName>SubspaceListTests</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

@@ -11,7 +11,7 @@ using namespace std;
 
 Board::Board(){
 	//number of mines is same as in expert mode: 99
-	numMines = 99;
+	numMines = 0;
 	//create a sorted array, then randomize to determine position of mines
 	vector<int> rvector(480,0);
 	for (int i = 0; i < 480; i++){
@@ -158,7 +158,6 @@ Board::Board(bool cover){
 	for (int i = 0; i < 480; i++){
 		if (i != 254){
 			mineVector.push_back(-1);
-
 		}
 		else{
 			//leave the center space a 0
